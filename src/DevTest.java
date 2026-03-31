@@ -17,10 +17,19 @@ public class DevTest {
         double inputPrompt4 = SafeInput.getRangedDouble(in, "Enter your favorite double number", 1, 10);
         System.out.println("The double number chosen is: " + inputPrompt4);
 
+        boolean inputPrompt5 = SafeInput.getYNConfirm(in, "Enter a yes or no [Y/N] ");
+        System.out.println("You chose: " + inputPrompt5);
+
+        String inputPrompt6 = SafeInput.getRegExString(in, "Enter a string that matches the Positive Integers regex pattern ","^\\d{3}-\\d{2}-\\d{4}$");
+        System.out.println("Your string matches the pattern: ^\\d+$" );
+
+        String firstName = SafeInput.getNonZeroLenString(in, "Enter your first name");
+        String lastName = SafeInput.getNonZeroLenString(in, "Enter your last name");
+        System.out.println("\nYour full name is: " + firstName + " " + lastName);
+
     }
 
     {
 
     }
 }
-
