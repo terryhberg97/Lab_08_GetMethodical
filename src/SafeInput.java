@@ -16,7 +16,6 @@ public class SafeInput {
         } while (retString.length() == 0);
 
         return retString;
-
     }
 
     public static int getInt(Scanner pipe, String prompt) {
