@@ -28,8 +28,6 @@ public class DevTest {
         System.out.println("\nYour full name is: " + firstName + " " + lastName);
 
     }
-
     {
-
     }
 }
